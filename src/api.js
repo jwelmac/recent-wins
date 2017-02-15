@@ -1,9 +1,19 @@
 import KoaRouter from 'koa-router';
-import Category from './category';
+import Resume from './resume';
 
 const api = KoaRouter();
 
+// Set a prefix of our api, in this case resume
+export const api_prefix = 'resume'
+api.prefix(`/${api_prefix}`);
 
+/**
+* Redirect to all if prefix called without additional parameters
+*/
+api.redirect('/', '/all');
+
+
+/** Middleware to ensure category is valid */
 const validateCategory = async (ctx, next) => {
   const { category_name } = ctx.params;
   if (!(ctx.state.categories.includes(category_name))) {
@@ -12,14 +22,26 @@ const validateCategory = async (ctx, next) => {
   await next();
 };
 
-api.get('/:category_name',
+/**
+* Get all categories
+*/
+api.get('/all',
+  async (ctx, next) => {
+    const { category_name } = ctx.params;
+    const all = Resume.allCategories();
+    ctx.body = { all };
+});
+
+/**
+* Request a category using GET
+*/
+api.get('/category/:category_name',
   validateCategory,
   async (ctx, next) => {
     const { category_name } = ctx.params;
-    const category = new Category(category_name);
+    const category = Resume.category(category_name);
     ctx.body = { category };
 });
-
 
 
 export default api;

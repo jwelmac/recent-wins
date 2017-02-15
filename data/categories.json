@@ -1,5 +1,8 @@
 {
   "categories": [
     "about-me"
-  ]
+  ],
+  "titles": {
+    "about-me": "About Me"
+  }
 }
