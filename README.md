@@ -1,2 +1,3 @@
 # recent-wins
-Simple one page app to demonstrate Koa2 api displaying my recent wins (accomplishments)
+Simple API to demonstrate Koa2.
+Currently returns json data of my recent accomplishments.
