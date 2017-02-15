@@ -1,9 +1,10 @@
 import KoaRouter from 'koa-router';
 import Resume from './resume';
+import {categories} from '../data/categories';
 
 const api = KoaRouter();
 
-// Set a prefix of our api, in this case resume
+// Set the prefix of our api, in this case resume
 export const api_prefix = 'resume'
 api.prefix(`/${api_prefix}`);
 
@@ -16,7 +17,7 @@ api.redirect('/', '/all');
 /** Middleware to ensure category is valid */
 const validateCategory = async (ctx, next) => {
   const { category_name } = ctx.params;
-  if (!(ctx.state.categories.includes(category_name))) {
+  if (!(categories.includes(category_name))) {
     return ctx.throw(404);
   }
   await next();
