@@ -18,7 +18,10 @@
     "nodejs",
     "ava"
   ],
-  "author": "Jermaine McFarlane <j.mcfarlane.mbbs@gmail.com>",
+  "author": {
+    "name": "Jermaine McFarlane",
+    "email": "j.mcfarlane.mbbs@gmail.com"
+  },
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/jwelmac/recent-wins/issues"

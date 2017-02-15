@@ -1,3 +1,4 @@
+/* Adapted from http://bit.ly/2lfulxo */
 'use strict';
 
 const env = process.env.NODE_ENV || 'development';
