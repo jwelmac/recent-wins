@@ -4,10 +4,6 @@ import {categories} from '../data/categories';
 
 const api = KoaRouter();
 
-// Set the prefix of our api, in this case resume
-export const api_prefix = 'resume'
-api.prefix(`/${api_prefix}`);
-
 /**
 * Redirect to all if prefix called without additional parameters
 */
