@@ -1,0 +1,24 @@
+{
+  "name": "recent-wins",
+  "version": "1.0.0",
+  "description": "Simple one page app to demonstrate Koa2 api",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwelmac/recent-wins.git"
+  },
+  "keywords": [
+    "koa2",
+    "nodejs",
+    "ava"
+  ],
+  "author": "Jermaine McFarlane <j.mcfarlane.mbbs@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jwelmac/recent-wins/issues"
+  },
+  "homepage": "https://github.com/jwelmac/recent-wins#readme"
+}
