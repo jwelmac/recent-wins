@@ -1,8 +1,14 @@
 {
   "categories": [
-    "about-me"
+    "about-me",
+    "experience",
+    "open-source",
+    "side-projects"
   ],
   "titles": {
-    "about-me": "About Me"
+    "about-me": "About Me",
+    "experience": "Recent Experience",
+    "side-projects": "Side Projects",
+    "open-source": "Open Source Contributions"
   }
 }
