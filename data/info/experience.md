@@ -9,13 +9,13 @@ HTML5, CSS3, JavaScript and JQuery
 - Initiated company Git repository for booking software and
 implemented continuous deployment of code changes to
 production sites using Gitlab CI
-• Created iCal import plugin for Guestbooked 3.0 utilizing
+- Created iCal import plugin for Guestbooked 3.0 utilizing
 Handlebars to dynamically generate form templates  
 
 #### Mobile App Developer with Avatar Medical (Freelance)   
 *October 2016 – February 2017*  
-http://www.healthvoiceapp.com/  
-- Rewriting native iOS app using Angular 2/Typescript on Ionic
+[HealthVoice](https://appetize.io/app/j5degzb6f45pcg9q2wec9cvzv0) 
+- Rewrote native iOS app using Angular 2/Typescript on Ionic
 Framework to allow cross platform distribution and enhance
 maintainability  
 
@@ -32,15 +32,14 @@ website
   - https://drsherrillchong.me/  - Natural Health Practitioner Website
 
 
-#### Full Stack Developer (Freelance) at University of the West Indies – St. Augustine, Trinidad and Tobago  
+#### Full Stack Developer (Freelance)  
 *November – December 2016*  
 https://sta.uwi.edu/fhe/cll/IELTS/  
 -  Contributed to the conversion of a static HTML design to a
 Drupal Theme allowing WYSIWIG editing of HTML template.
 -  Assisted with setting up dynamic translation of templates
 
-#### Web Developer and Technical Consultant
-at R.L. Karoo (Remote)  
+#### Web Developer and Technical Consultant at R.L. Karoo (Remote)  
 *February – October 2016*   
 - Developed subscription based SaaS telemedicine platform
 using PHP, javascript/jQuery and HTML5/CSS3 integrating
@@ -60,5 +59,5 @@ support operations .
 appointment setting  
 - Designed MySQL and SQLite databases and constructed
 complex queries  
-*Company currently in hibernation due to insufficient funding.  
+*Company currently in hibernation.  
 Sites currently down due to recent hack*
