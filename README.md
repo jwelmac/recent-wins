@@ -6,7 +6,7 @@ Currently returns json data of my recent accomplishments.
 - Clone the repository.
 - Run `npm install`
 - When all dependencies are installed run `npm start`
-- Send a `GET` request to `localhost:4000` in your browser to retireve all information in JSON format
+- Send a `GET` request to `localhost:4000` in your browser to retrieve all information in JSON format
 
 ## Endpoints
 - `/` : Redirects to `all`
